@@ -685,6 +685,12 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
+.cid-seSEREAneL {
+  background-image: url("../../../assets/images/rp-video-12-5-20-4.gif");
+}
+.cid-seSR2OOW3X {
+  background-image: url("../../../assets/images/shorter-shape-gradient-1.gif");
+}
 .cid-s41XNeVMcL {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -892,6 +898,7 @@ section.lazy-placeholder:after {
 .cid-s7kRnVs7sU {
   padding-top: 90px;
   padding-bottom: 0px;
+  background-image: url("../../../assets/images/shorter-shape-gradient-1.gif");
 }
 .cid-s7kRnVs7sU P {
   color: #767676;
