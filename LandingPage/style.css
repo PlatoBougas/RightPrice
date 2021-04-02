@@ -1,0 +1,42 @@
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html,
+body,
+#main {
+  height: 100%;
+}
+
+.button {
+  height: 38px;
+  color: #fff;
+  padding: 0.3rem 3.2rem;
+  border-radius: 4px;
+  transition: all 0.15s;
+}
+
+.button-primary {
+  border: 1px solid #000000;
+  background: black;
+  color: #fff;
+  outline: 0;
+}
+
+.button-primary:hover {
+  background: darken(black, 10%);
+  border-bottom: 1px solid darken(black, 20%);
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 0 4px #ccc;
+}
+
+.button-primary:active {
+  transform: scale(0.95);
+  border-top: #000000;
+  background: #000000;
+  border-bottom: #000000;
+  outline: 0;
+}
