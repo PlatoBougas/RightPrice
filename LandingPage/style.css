@@ -40,3 +40,40 @@ body,
   border-bottom: #000000;
   outline: 0;
 }
+
+#main
+  display: flex
+  align-items: center
+  justify-content: center
+
+html, body, #main 
+  height: 100%
+  
+$scarlet: #000000
+
+.button
+  height: 38px
+  color: #fff
+  padding: 0.6rem 3.2rem
+  border-radius: 4px
+  transition: all .15s
+  
+.button-primary
+  border: 1px solid $scarlet
+  background: $scarlet
+  color: #fff
+  outline: 0
+
+.button-primary:hover
+  background: darken($scarlet, 10%)
+  border-bottom: 1px solid darken($scarlet, 20%)
+  cursor:pointer
+  transform: scale(1.05)
+  box-shadow: 0 0 4px #ccc
+  
+.button-primary:active
+  transform: scale(.95)
+  border-top: 1px solid darken($scarlet, 15%)
+  background: darken($scarlet, 5%)
+  border-bottom: 1px solid darken($scarlet, 5%)
+  outline: 0
